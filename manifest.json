@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "SecureSnap",
+    "description": "A chrome extension to take tamper proof screenshots of webpages",
+    "version": "1",
+    "author": "TM",
+    "action": {
+        "default_icon": "icon.png",
+        "default_title": "SecureSnap is here",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "tabs", "desktopCapture", "<all_urls>"]
+}
